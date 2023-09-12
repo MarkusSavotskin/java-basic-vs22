@@ -7,7 +7,7 @@ import static java.lang.Integer.parseInt;
 public class Ex21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String userInput = "";
+        String userInput;
         int enteredYear;
         boolean divisibleBy4;
         boolean divisibleBy100;
