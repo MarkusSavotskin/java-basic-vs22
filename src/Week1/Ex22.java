@@ -19,7 +19,6 @@ public class Ex22 {
             } else {
                 System.out.println("Wrong!");
             }
-
         }
     }
 }
