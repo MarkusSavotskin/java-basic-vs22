@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Ex62 {
     public static void main(String[] args) {
-        ArrayList<String> brothers = new ArrayList<String>();
+        ArrayList<String> brothers = new ArrayList<>();
         brothers.add("Dick");
         brothers.add("Henry");
         brothers.add("Michael");
