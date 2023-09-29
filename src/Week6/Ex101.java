@@ -62,6 +62,7 @@ public class Ex101 {
 
             return found;
         }
+
         public ArrayList<Book> searchByPublisher(String publisher) {
             ArrayList<Book> found = new ArrayList<Book>();
 
@@ -73,6 +74,7 @@ public class Ex101 {
 
             return found;
         }
+
         public ArrayList<Book> searchByYear(int year) {
             ArrayList<Book> found = new ArrayList<Book>();
 
@@ -81,7 +83,6 @@ public class Ex101 {
                     found.add(book);
                 }
             }
-
             return found;
         }
     }
@@ -100,12 +101,12 @@ public class Ex101 {
         Library.addBook(new Book("NHL Hockey", "Stanley Kupp", 1952));
         Library.addBook(new Book("Battle Axes", "Tom A. Hawk", 1851));
 
-        for (Book book: Library.searchByTitle("CHEESE")) {
+        for (Book book : Library.searchByTitle("CHEESE")) {
             System.out.println(book);
         }
 
         System.out.println("---");
-        for (Book book: Library.searchByPublisher("PENGUIN  ")) {
+        for (Book book : Library.searchByPublisher("PENGUIN  ")) {
             System.out.println(book);
         }
     }
